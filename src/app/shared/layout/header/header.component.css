@@ -1,9 +1,11 @@
 .header {
+  margin-bottom: 50px;
   width: 100%;
   padding: 1rem 1.5rem;
 
   background-color: var(--primary-color);
 
+  position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;

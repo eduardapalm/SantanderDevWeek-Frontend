@@ -19,6 +19,13 @@
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+@media screen and (max-width: 768px) {
+  .stock-card-container{
+    width: 20rem;
+    height: 12.5rem;
+  }
+}
+
 .negative-variation-border {
   border-left-color: var(--negative-variation-color);
 }
@@ -71,11 +78,4 @@
 
 .stock-value-container .negative-variation {
   background-color: var(--negative-variation-color);
-}
-
-@media screen and (max-width: 768px) {
-  .stock-card-container{
-    width: 20rem;
-    height: 12.5rem;
-  }
 }
