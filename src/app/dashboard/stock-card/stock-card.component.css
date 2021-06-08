@@ -72,3 +72,10 @@
 .stock-value-container .negative-variation {
   background-color: var(--negative-variation-color);
 }
+
+@media screen and (max-width: 768px) {
+  .stock-card-container{
+    width: 20rem;
+    height: 12.5rem;
+  }
+}
